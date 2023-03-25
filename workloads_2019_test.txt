@@ -1,0 +1,1 @@
+--add Microsoft.VisualStudio.Workload.CoreEditor

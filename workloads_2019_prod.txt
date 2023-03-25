@@ -1,0 +1,9 @@
+--add Microsoft.VisualStudio.Workload.ManagedDesktop
+--add Microsoft.VisualStudio.Workload.NativeDesktop
+--add Microsoft.VisualStudio.Workload.NetCrossPlat
+--add Microsoft.VisualStudio.Workload.NetWeb
+--add Microsoft.VisualStudio.Workload.VisualStudioExtension
+--add Microsoft.VisualStudio.Workload.Data
+--add Component.GitHub.VisualStudio
+--includeRecommended
+--includeOptional
