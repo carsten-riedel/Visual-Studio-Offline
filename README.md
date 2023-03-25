@@ -29,4 +29,6 @@ Offline installations of Visual Studio 2019 or 2022 when there is limited or no 
 
 ## License
 
-The license for the *.iss and *.txt files is MIT. Please note that the original *.exe file belongs to Microsoft.
+The *.iss and *.txt files used in this repository of the offline installer are licensed under the MIT License. <br>
+Please note that the original *.exe file used for Visual Studio belongs to Microsoft and is subject to their terms and conditions.
+
