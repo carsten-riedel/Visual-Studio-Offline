@@ -17,7 +17,7 @@ To create the offline installer, follow these steps:
 5. Run the ISS file to create the offline installer. (It downloads the required workloads automatically, preparing the "layout".)
 6. The resulting installer can be used for silent, additive installations of Visual Studio 2019.
 
-Note: The modified ISS file can also be used for creating an offline installer for Visual Studio 2022 with a few modifications, including changing the workloads in the `SOURCEFILE` variable. (VS2022 has different workloads)
+Note: The modified ISS file can also be used for creating an offline installer for Visual Studio 2022 with a few modifications, including changing `GETINSTALLLOCATION`,`VS_INSTALLER_EXE` and the workloads in the `SOURCEFILE` variable. (VS2022 has different workloads)
 
 ## Sources
 - [Visual Studio 2019 Community](https://my.visualstudio.com/) (Download and rename the installer if you don't trust the file in the repository)<br>
