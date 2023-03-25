@@ -7,7 +7,7 @@ This guide explains how to create an offline installer for Visual Studio 2019 us
 Install Inno Setup on your machine.<br>
 Launch the ISS file.<br>
 Modify the following variables in the ISS file as needed:
-GETINSTALLLOCATION: Specifies the location for the installation of Visual Studio Community 2019. This is the string you see in Windows under "Programs and Features" (Uninstall)
+GETINSTALLLOCATION: Specifies the location for the installation of Visual Studio Community 2019. This is the string you see in Windows under "Programs and Features" (Uninstall)<br>
 VS_INSTALLER_EXE: Specifies the name of the Visual Studio 2019 installer executable file.<br>
 SOURCEFILE: Specifies the location of the workloads_2019_test.txt file. (Workloads prepared, just change according to your needs)
 Save the modified ISS file.<br>
