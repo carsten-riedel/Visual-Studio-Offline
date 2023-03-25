@@ -3,6 +3,7 @@ The one and only offline approach. Wrapping visual studio installation files in 
 
 ## Description
 This guide explains how to create an offline installer for Visual Studio 2019 using Inno Setup, a powerful open-source tool for creating Windows installers. The resulting installer can be used to perform silent, additive installations of Visual Studio 2019 without an internet connection.
+Create you individual offline installation packages!
 
 Install Inno Setup on your machine.<br>
 Launch the ISS file.<br>
