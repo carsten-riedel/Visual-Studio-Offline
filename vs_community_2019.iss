@@ -66,8 +66,13 @@
 
 ;Removes previous build dirs
 #expr Exec(GetEnv("COMSPEC"),"/C rd /S /Q """+VS_INSTALLER_BUILD_DIR+"""")
+
+#pragma message "Full commandline: " + VS_INSTALLER + " " + VS_INSTALLER_PARAM
+
 ;Invokes the orginal installer for offline download
 #expr Exec(VS_INSTALLER, VS_INSTALLER_PARAM)
+
+
 
 [Setup]
 AppName=Visual Studio {#VSDOWNLOADERFOLDERNAME} offline installer
