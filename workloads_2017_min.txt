@@ -1,0 +1,3 @@
+--add Microsoft.VisualStudio.Workload.ManagedDesktop
+--add Component.GitHub.VisualStudio 
+--includeRecommended
